@@ -3,6 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 
+  // ! This seems to be the problem
+  // If you remove this 18n block, it works
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
