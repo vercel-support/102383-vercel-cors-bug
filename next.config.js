@@ -14,6 +14,7 @@ const nextConfig = {
     return [
       {
         source: "/:path*",
+        locale: false,
         headers: [
           {
             key: "Cross-Origin-Opener-Policy",
